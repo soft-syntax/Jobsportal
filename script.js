@@ -7,6 +7,7 @@ document.querySelector(".button-container")
     })
 })
 
+
 function getJobs() {
     return fetch("data.json")
     .then (response => response.json())
